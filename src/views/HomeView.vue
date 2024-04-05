@@ -6,7 +6,9 @@
         <Slider />
         <AllNews class="min-[1240px]:block hidden" />
       </div>
-      <div class="md:grid md:grid-cols-2 mt-12 md:gap-x-8 flex flex-col">
+      <div
+        class="md:grid md:grid-cols-2 mt-12 md:gap-x-8 flex flex-col min-[1240px]:hidden"
+      >
         <AllNews />
         <Popular />
       </div>
